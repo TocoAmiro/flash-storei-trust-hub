@@ -97,7 +97,7 @@ export const translations: Record<Language, Translations> = {
       admin3: 'ادمین ۳',
       admin4: 'ادمین ۴',
       admin5: 'ادمین ۵',
-      adminInternational: 'ادمین بین‌المللی',
+      adminInternational: 'ادمین خارج از کانال',
     },
     trust: {
       title: 'نماد اعتماد فلش storei',
@@ -158,7 +158,7 @@ export const translations: Record<Language, Translations> = {
       admin3: 'Admin 3',
       admin4: 'Admin 4',
       admin5: 'Admin 5',
-      adminInternational: 'International Admin',
+      adminInternational: 'Admin Outside Channel',
     },
     trust: {
       title: 'Flash storei Trust Badge',
@@ -219,7 +219,7 @@ export const translations: Record<Language, Translations> = {
       admin3: 'المشرف 3',
       admin4: 'المشرف 4',
       admin5: 'المشرف 5',
-      adminInternational: 'المشرف الدولي',
+      adminInternational: 'المشرف خارج القناة',
     },
     trust: {
       title: 'شارة ثقة فلاش storei',

@@ -15,12 +15,12 @@ export const Team = () => {
   const { t } = useLanguage();
 
   const admins: Admin[] = [
-    { id: '1', name: t.team.admin1, telegram: '@flashstorei_admin1', role: 'Senior Sales' },
-    { id: '2', name: t.team.admin2, telegram: '@flashstorei_admin2', role: 'Sales Support' },
-    { id: '3', name: t.team.admin3, telegram: '@flashstorei_admin3', role: 'Customer Service' },
-    { id: '4', name: t.team.admin4, telegram: '@flashstorei_admin4', role: 'Technical Support' },
-    { id: '5', name: t.team.admin5, telegram: '@flashstorei_admin5', role: 'Account Manager' },
-    { id: '6', name: t.team.adminInternational, telegram: '@flashstorei_intl', role: 'International Sales' },
+    { id: '1', name: t.team.admin1, telegram: '@Flashe_ad1', role: 'Senior Sales' },
+    { id: '2', name: t.team.admin2, telegram: '@Flashe_ad2', role: 'Sales Support' },
+    { id: '3', name: t.team.admin3, telegram: '@Flashe_ad3', role: 'Customer Service' },
+    { id: '4', name: t.team.admin4, telegram: '@Flashe_ad4', role: 'Technical Support' },
+    { id: '5', name: t.team.admin5, telegram: '@Flashe_ad5', role: 'Account Manager' },
+    { id: '6', name: t.team.adminInternational, telegram: '@Flashe_ad_vaset', role: 'Outside Channel' },
   ];
 
   const handleContact = (telegram: string) => {
