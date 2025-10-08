@@ -3,6 +3,11 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Card } from './ui/card';
 import { Dialog, DialogContent } from './ui/dialog';
 import { X } from 'lucide-react';
+import businessLicense from '@/assets/certificates/business-license.jpg';
+import birthCertificate from '@/assets/certificates/birth-certificate.jpg';
+import nationalId from '@/assets/certificates/national-id.jpg';
+import associationCert from '@/assets/certificates/association-certificate.jpg';
+import hseMs from '@/assets/certificates/hse-ms.jpg';
 
 interface Certificate {
   id: string;
@@ -14,13 +19,12 @@ export const Certificates = () => {
   const { t } = useLanguage();
   const [selectedCert, setSelectedCert] = useState<Certificate | null>(null);
 
-  // Placeholder certificates - in production, these would be actual uploaded documents
   const certificates: Certificate[] = [
-    { id: '1', title: t.certificates.businessRegistration, image: 'https://images.unsplash.com/photo-1554224311-beee4ece3c5d?w=800&h=600&fit=crop' },
-    { id: '2', title: t.certificates.tradeLicense, image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=600&fit=crop' },
-    { id: '3', title: t.certificates.nationalId, image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop' },
-    { id: '4', title: t.certificates.birthCertificate, image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&h=600&fit=crop' },
-    { id: '5', title: t.certificates.hseMs, image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=600&fit=crop' },
+    { id: '1', title: t.certificates.businessRegistration, image: businessLicense },
+    { id: '2', title: t.certificates.tradeLicense, image: associationCert },
+    { id: '3', title: t.certificates.nationalId, image: nationalId },
+    { id: '4', title: t.certificates.birthCertificate, image: birthCertificate },
+    { id: '5', title: t.certificates.hseMs, image: hseMs },
   ];
 
   return (
