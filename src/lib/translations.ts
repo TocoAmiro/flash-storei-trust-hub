@@ -39,13 +39,17 @@ export interface Translations {
   trust: {
     title: string;
     storeName: string;
+    storeValue: string;
     registrationNumber: string;
+    registrationValue: string;
     managerName: string;
+    managerValue: string;
     issueDate: string;
+    issueDateValue: string;
     status: string;
     statusValid: string;
     description: string;
-    verificationLink: string;
+    notes: string;
   };
   about: {
     title: string;
@@ -102,13 +106,17 @@ export const translations: Record<Language, Translations> = {
     trust: {
       title: 'نماد اعتماد فلش storei',
       storeName: 'نام فروشگاه',
-      registrationNumber: 'شماره ثبت / شناسه',
+      storeValue: 'فلش storei',
+      registrationNumber: 'شماره ثبت',
+      registrationValue: 'FS-2024-001',
       managerName: 'نام مدیر',
+      managerValue: 'محمد رضایی',
       issueDate: 'تاریخ صدور',
+      issueDateValue: '1403/01/01',
       status: 'وضعیت',
       statusValid: 'معتبر',
-      description: 'این فروشگاه مستقل با ارائه مدارک کامل و شفافیت در فعالیت‌های خود، تعهد به ارائه خدمات امن و باکیفیت دارد.',
-      verificationLink: 'لینک اعتبارسنجی',
+      description: 'این فروشگاه با ارائه مدارک معتبر و نماد اعتماد، تعهد به شفافیت و امنیت خریدهای خود را دارد.',
+      notes: 'توضیحات',
     },
     about: {
       title: 'درباره فلش storei',
@@ -163,13 +171,17 @@ export const translations: Record<Language, Translations> = {
     trust: {
       title: 'Flash storei Trust Badge',
       storeName: 'Store Name',
-      registrationNumber: 'Registration Number / ID',
+      storeValue: 'Flash storei',
+      registrationNumber: 'Registration Number',
+      registrationValue: 'FS-2024-001',
       managerName: 'Manager Name',
+      managerValue: 'Mohammad Rezaei',
       issueDate: 'Issue Date',
+      issueDateValue: '2024/03/21',
       status: 'Status',
       statusValid: 'Valid',
-      description: 'This independent store, by providing complete documentation and transparency in its activities, is committed to providing safe and quality services.',
-      verificationLink: 'Verification Link',
+      description: 'This store, by providing valid documents and trust badge, is committed to transparency and security of your purchases.',
+      notes: 'Notes',
     },
     about: {
       title: 'About Flash storei',
@@ -224,13 +236,17 @@ export const translations: Record<Language, Translations> = {
     trust: {
       title: 'شارة ثقة فلاش storei',
       storeName: 'اسم المتجر',
-      registrationNumber: 'رقم التسجيل / المعرف',
+      storeValue: 'فلاش storei',
+      registrationNumber: 'رقم التسجيل',
+      registrationValue: 'FS-2024-001',
       managerName: 'اسم المدير',
+      managerValue: 'محمد رضايي',
       issueDate: 'تاریخ الإصدار',
+      issueDateValue: '1403/01/01',
       status: 'الحالة',
       statusValid: 'صالح',
-      description: 'هذا المتجر المستقل، من خلال تقديم وثائق كاملة والشفافية في أنشطته، ملتزم بتقديم خدمات آمنة وعالية الجودة.',
-      verificationLink: 'رابط التحقق',
+      description: 'هذا المتجر، من خلال تقديم وثائق صالحة وشارة الثقة، ملتزم بالشفافية وأمن مشترياتك.',
+      notes: 'ملاحظات',
     },
     about: {
       title: 'عن فلاش storei',
