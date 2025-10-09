@@ -33,7 +33,6 @@ export interface Translations {
     admin2: string;
     admin3: string;
     admin4: string;
-    admin5: string;
     adminInternational: string;
   };
   trust: {
@@ -46,6 +45,8 @@ export interface Translations {
     managerValue: string;
     issueDate: string;
     issueDateValue: string;
+    expiryDate: string;
+    expiryDateValue: string;
     status: string;
     statusValid: string;
     description: string;
@@ -100,7 +101,6 @@ export const translations: Record<Language, Translations> = {
       admin2: 'ادمین ۲',
       admin3: 'ادمین ۳',
       admin4: 'ادمین ۴',
-      admin5: 'ادمین ۵',
       adminInternational: 'ادمین خارج از کانال',
     },
     trust: {
@@ -113,6 +113,8 @@ export const translations: Record<Language, Translations> = {
       managerValue: 'محمد رضایی',
       issueDate: 'تاریخ صدور',
       issueDateValue: '1403/01/01',
+      expiryDate: 'تاریخ انقضا',
+      expiryDateValue: '1408/05/03',
       status: 'وضعیت',
       statusValid: 'معتبر',
       description: 'این فروشگاه با ارائه مدارک معتبر و نماد اعتماد، تعهد به شفافیت و امنیت خریدهای خود را دارد.',
@@ -165,7 +167,6 @@ export const translations: Record<Language, Translations> = {
       admin2: 'Admin 2',
       admin3: 'Admin 3',
       admin4: 'Admin 4',
-      admin5: 'Admin 5',
       adminInternational: 'Admin Outside Channel',
     },
     trust: {
@@ -178,6 +179,8 @@ export const translations: Record<Language, Translations> = {
       managerValue: 'Mohammad Rezaei',
       issueDate: 'Issue Date',
       issueDateValue: '2024/03/21',
+      expiryDate: 'Expiry Date',
+      expiryDateValue: '2029/07/24',
       status: 'Status',
       statusValid: 'Valid',
       description: 'This store, by providing valid documents and trust badge, is committed to transparency and security of your purchases.',
@@ -230,7 +233,6 @@ export const translations: Record<Language, Translations> = {
       admin2: 'المشرف 2',
       admin3: 'المشرف 3',
       admin4: 'المشرف 4',
-      admin5: 'المشرف 5',
       adminInternational: 'المشرف خارج القناة',
     },
     trust: {
@@ -243,6 +245,8 @@ export const translations: Record<Language, Translations> = {
       managerValue: 'محمد رضايي',
       issueDate: 'تاریخ الإصدار',
       issueDateValue: '1403/01/01',
+      expiryDate: 'تاریخ الانتهاء',
+      expiryDateValue: '1408/05/03',
       status: 'الحالة',
       statusValid: 'صالح',
       description: 'هذا المتجر، من خلال تقديم وثائق صالحة وشارة الثقة، ملتزم بالشفافية وأمن مشترياتك.',

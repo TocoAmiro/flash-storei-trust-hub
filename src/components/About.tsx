@@ -60,6 +60,11 @@ export const About = () => {
                 <span className="text-foreground/70">{t.trust.issueDateValue}</span>
               </div>
               
+              <div className="flex justify-between items-center border-b border-border/30 pb-3">
+                <span className="font-semibold text-foreground/90">{t.trust.expiryDate}</span>
+                <span className="text-foreground/70">{t.trust.expiryDateValue}</span>
+              </div>
+              
               <div className="flex justify-center items-center gap-3 bg-green-500/10 border border-green-500/30 rounded-lg py-3 px-4">
                 <span className="font-semibold text-foreground/90">{t.trust.status}</span>
                 <div className="flex items-center gap-2">
