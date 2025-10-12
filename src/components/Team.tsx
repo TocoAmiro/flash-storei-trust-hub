@@ -2,24 +2,29 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Card } from './ui/card';
 import { Button } from './ui/button';
 import { Send } from 'lucide-react';
-import logo from '@/assets/logo.png';
+import admin1Logo from '@/assets/admins/admin1-logo.png';
+import admin2Logo from '@/assets/admins/admin2-logo.jpeg';
+import admin3Logo from '@/assets/admins/admin3-logo.jpeg';
+import admin4Logo from '@/assets/admins/admin4-logo.jpeg';
+import adminInternationalLogo from '@/assets/admins/admin-international-logo.jpeg';
 
 interface Admin {
   id: string;
   name: string;
   telegram: string;
   role: string;
+  logo: string;
 }
 
 export const Team = () => {
   const { t } = useLanguage();
 
   const admins: Admin[] = [
-    { id: '1', name: t.team.admin1, telegram: '@Flashe_ad1', role: 'Senior Sales' },
-    { id: '2', name: t.team.admin2, telegram: '@Flashe_ad2', role: 'Sales Support' },
-    { id: '3', name: t.team.admin3, telegram: '@Flashe_ad3', role: 'Customer Service' },
-    { id: '4', name: t.team.admin4, telegram: '@Flashe_ad4', role: 'Technical Support' },
-    { id: '5', name: t.team.adminInternational, telegram: '@Flashe_ad_vaset', role: 'Outside Channel' },
+    { id: '1', name: t.team.admin1, telegram: '@Flashe_ad1', role: 'Senior Sales', logo: admin1Logo },
+    { id: '2', name: t.team.admin2, telegram: '@Flashe_ad2', role: 'Sales Support', logo: admin2Logo },
+    { id: '3', name: t.team.admin3, telegram: '@Flashe_ad3', role: 'Customer Service', logo: admin3Logo },
+    { id: '4', name: t.team.admin4, telegram: '@Flashe_ad4', role: 'Technical Support', logo: admin4Logo },
+    { id: '5', name: t.team.adminInternational, telegram: '@Flashe_ad_vaset', role: 'Outside Channel', logo: adminInternationalLogo },
   ];
 
   const handleContact = (telegram: string) => {
@@ -44,8 +49,8 @@ export const Team = () => {
               <div className="flex flex-col items-center text-center space-y-4">
                 {/* Admin Avatar */}
                 <div className="w-24 h-24 rounded-full bg-gradient-primary p-1">
-                  <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
-                    <img src={logo} alt={admin.name} className="w-16 h-16 logo-pulse" />
+                  <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
+                    <img src={admin.logo} alt={admin.name} className="w-full h-full object-cover" />
                   </div>
                 </div>
 
