@@ -20,11 +20,11 @@ export const Team = () => {
   const { t } = useLanguage();
 
   const admins: Admin[] = [
-    { id: '1', name: t.team.admin1, telegram: '@Flashe_ad1', role: 'Senior Sales', logo: admin1Logo },
-    { id: '2', name: t.team.admin2, telegram: '@Flashe_ad2', role: 'Sales Support', logo: admin2Logo },
-    { id: '3', name: t.team.admin3, telegram: '@Flashe_ad3', role: 'Customer Service', logo: admin3Logo },
-    { id: '4', name: t.team.admin4, telegram: '@Flashe_ad4', role: 'Technical Support', logo: admin4Logo },
-    { id: '5', name: t.team.adminInternational, telegram: '@Flashe_ad_vaset', role: 'Outside Channel', logo: adminInternationalLogo },
+    { id: '1', name: t.team.admin1, telegram: '@STORM_Ad1', role: 'Senior Sales', logo: admin1Logo },
+    { id: '2', name: t.team.admin2, telegram: '@STORM_Ad2', role: 'Sales Support', logo: admin2Logo },
+    { id: '3', name: t.team.admin3, telegram: '@STORM_Ad3', role: 'Customer Service', logo: admin3Logo },
+    { id: '4', name: t.team.admin4, telegram: '@STORM_Ad4', role: 'Technical Support', logo: admin4Logo },
+    { id: '5', name: t.team.adminInternational, telegram: '@STORM_Ad_vaset', role: 'Outside Channel', logo: adminInternationalLogo },
   ];
 
   const handleContact = (telegram: string) => {

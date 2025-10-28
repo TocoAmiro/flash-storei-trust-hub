@@ -91,10 +91,10 @@ export const Contact = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="font-bold text-lg mb-1">{t.contact.telegram}</h3>
-                  <p className="text-sm text-muted-foreground">@flashstorei</p>
+                  <p className="text-sm text-muted-foreground">@STORMSHOP</p>
                 </div>
                 <Button
-                  onClick={() => window.open('https://t.me/flashstorei', '_blank')}
+                  onClick={() => window.open('https://t.me/STORMSHOP', '_blank')}
                   variant="outline"
                   className="glass-button"
                 >
