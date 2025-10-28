@@ -22,9 +22,9 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Flash Storei" className="h-10 w-10 logo-pulse" />
+            <img src={logo} alt="STORM SOPH" className="h-10 w-10 logo-pulse" />
             <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              فلش storei
+              STORM SOPH
             </span>
           </div>
 

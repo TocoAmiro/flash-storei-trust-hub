@@ -78,11 +78,11 @@ export const translations: Record<Language, Translations> = {
       contact: 'تماس',
     },
     hero: {
-      title: 'فلش storei - فروشگاه معتبر اکانت PUBG Mobile',
+      title: 'STORM SOPH - فروشگاه معتبر اکانت PUBG Mobile',
       subtitle: 'خرید و فروش امن با ضمانت و مدارک رسمی',
       viewCertificates: 'مشاهده مدارک',
       viewTeam: 'مشاهده تیم فروش',
-      trustText: 'به فلش storei خوش آمدید ⚡\n\nفلش storei یک فروشگاه اینترنتی مستقل است که در زمینه خرید و فروش اکانت‌های PUBG Mobile فعالیت دارد. ما شرکت رسمی نیستیم ولی با شفافیت کامل، مدارک رسمی و نماد اعتماد، محیطی امن و قابل اعتماد برای کاربران فراهم کرده‌ایم. هر خرید دارای رسید و کد پیگیری است و تیم پشتیبانی ما آماده پاسخگویی است.',
+      trustText: 'به STORM SOPH خوش آمدید ⚡\n\nSTORM SOPH یک فروشگاه اینترنتی مستقل است که در زمینه خرید و فروش اکانت‌های PUBG Mobile فعالیت دارد. ما شرکت رسمی نیستیم ولی با شفافیت کامل، مدارک رسمی و نماد اعتماد، محیطی امن و قابل اعتماد برای کاربران فراهم کرده‌ایم. هر خرید دارای رسید و کد پیگیری است و تیم پشتیبانی ما آماده پاسخگویی است.',
     },
     certificates: {
       title: 'مدارک و گواهی‌های رسمی',
@@ -104,9 +104,9 @@ export const translations: Record<Language, Translations> = {
       adminInternational: 'ادمین خارج از کانال',
     },
     trust: {
-      title: 'نماد اعتماد فلش storei',
+      title: 'نماد اعتماد STORM SOPH',
       storeName: 'نام فروشگاه',
-      storeValue: 'فلش storei',
+      storeValue: 'STORM SOPH',
       registrationNumber: 'شماره ثبت',
       registrationValue: 'FS-2024-001',
       managerName: 'نام دارنده',
@@ -121,8 +121,8 @@ export const translations: Record<Language, Translations> = {
       notes: 'توضیحات',
     },
     about: {
-      title: 'درباره فلش storei',
-      content: 'فلش storei یک فروشگاه مستقل و معتبر در زمینه خرید و فروش اکانت‌های PUBG Mobile است. ما با سابقه چند ساله فعالیت، تلاش می‌کنیم محیطی امن و شفاف برای کاربران فراهم کنیم. تمامی معاملات دارای رسید و کد پیگیری هستند و تیم پشتیبانی ما همواره در خدمت شماست.',
+      title: 'درباره STORM SOPH',
+      content: 'STORM SOPH یک فروشگاه مستقل و معتبر در زمینه خرید و فروش اکانت‌های PUBG Mobile است. ما با سابقه چند ساله فعالیت، تلاش می‌کنیم محیطی امن و شفاف برای کاربران فراهم کنیم. تمامی معاملات دارای رسید و کد پیگیری هستند و تیم پشتیبانی ما همواره در خدمت شماست.',
     },
     contact: {
       title: 'تماس با ما',
@@ -144,11 +144,11 @@ export const translations: Record<Language, Translations> = {
       contact: 'Contact',
     },
     hero: {
-      title: 'Flash storei - Trusted PUBG Mobile Account Store',
+      title: 'STORM SOPH - Trusted PUBG Mobile Account Store',
       subtitle: 'Safe buying and selling with guarantee and official documents',
       viewCertificates: 'View Certificates',
       viewTeam: 'View Sales Team',
-      trustText: 'Welcome to Flash storei ⚡\n\nFlash storei is an independent online store operating in the field of buying and selling PUBG Mobile accounts. We are not a registered company, but with complete transparency, official documents, and trust badges, we provide a safe and reliable environment for users. Every purchase comes with a receipt and tracking code, and our support team is ready to assist you.',
+      trustText: 'Welcome to STORM SOPH ⚡\n\nSTORM SOPH is an independent online store operating in the field of buying and selling PUBG Mobile accounts. We are not a registered company, but with complete transparency, official documents, and trust badges, we provide a safe and reliable environment for users. Every purchase comes with a receipt and tracking code, and our support team is ready to assist you.',
     },
     certificates: {
       title: 'Official Documents & Certificates',
@@ -170,9 +170,9 @@ export const translations: Record<Language, Translations> = {
       adminInternational: 'Admin Outside Channel',
     },
     trust: {
-      title: 'Flash storei Trust Badge',
+      title: 'STORM SOPH Trust Badge',
       storeName: 'Store Name',
-      storeValue: 'Flash storei',
+      storeValue: 'STORM SOPH',
       registrationNumber: 'Registration Number',
       registrationValue: 'FS-2024-001',
       managerName: 'Owner Name',
@@ -187,8 +187,8 @@ export const translations: Record<Language, Translations> = {
       notes: 'Notes',
     },
     about: {
-      title: 'About Flash storei',
-      content: 'Flash storei is an independent and trusted store specializing in buying and selling PUBG Mobile accounts. With years of experience, we strive to provide a safe and transparent environment for users. All transactions come with receipts and tracking codes, and our support team is always at your service.',
+      title: 'About STORM SOPH',
+      content: 'STORM SOPH is an independent and trusted store specializing in buying and selling PUBG Mobile accounts. With years of experience, we strive to provide a safe and transparent environment for users. All transactions come with receipts and tracking codes, and our support team is always at your service.',
     },
     contact: {
       title: 'Contact Us',
@@ -210,11 +210,11 @@ export const translations: Record<Language, Translations> = {
       contact: 'اتصل بنا',
     },
     hero: {
-      title: 'فلاش storei - متجر موثوق لحسابات PUBG Mobile',
+      title: 'STORM SOPH - متجر موثوق لحسابات PUBG Mobile',
       subtitle: 'الشراء والبيع الآمن مع الضمان والوثائق الرسمية',
       viewCertificates: 'عرض الشهادات',
       viewTeam: 'عرض فريق المبيعات',
-      trustText: 'مرحباً بكم في فلاش storei ⚡\n\nفلاش storei هو متجر مستقل عبر الإنترنت يعمل في مجال شراء وبيع حسابات PUBG Mobile. نحن لسنا شركة مسجلة رسمياً، ولكن مع الشفافية الكاملة والوثائق الرسمية وشارات الثقة، نوفر بيئة آمنة وموثوقة للمستخدمين. كل عملية شراء تأتي مع إيصال ورمز تتبع، وفريق الدعم لدينا جاهز لمساعدتك.',
+      trustText: 'مرحباً بكم في STORM SOPH ⚡\n\nSTORM SOPH هو متجر مستقل عبر الإنترنت يعمل في مجال شراء وبيع حسابات PUBG Mobile. نحن لسنا شركة مسجلة رسمياً، ولكن مع الشفافية الكاملة والوثائق الرسمية وشارات الثقة، نوفر بيئة آمنة وموثوقة للمستخدمين. كل عملية شراء تأتي مع إيصال ورمز تتبع، وفريق الدعم لدينا جاهز لمساعدتك.',
     },
     certificates: {
       title: 'الوثائق والشهادات الرسمية',
@@ -236,9 +236,9 @@ export const translations: Record<Language, Translations> = {
       adminInternational: 'المشرف خارج القناة',
     },
     trust: {
-      title: 'شارة ثقة فلاش storei',
+      title: 'شارة ثقة STORM SOPH',
       storeName: 'اسم المتجر',
-      storeValue: 'فلاش storei',
+      storeValue: 'STORM SOPH',
       registrationNumber: 'رقم التسجيل',
       registrationValue: 'FS-2024-001',
       managerName: 'اسم المالك',
@@ -253,8 +253,8 @@ export const translations: Record<Language, Translations> = {
       notes: 'ملاحظات',
     },
     about: {
-      title: 'عن فلاش storei',
-      content: 'فلاش storei هو متجر مستقل وموثوق متخصص في شراء وبيع حسابات PUBG Mobile. مع سنوات من الخبرة، نسعى جاهدين لتوفير بيئة آمنة وشفافة للمستخدمين. جميع المعاملات تأتي مع إيصالات ورموز تتبع، وفريق الدعم لدينا دائماً في خدمتك.',
+      title: 'عن STORM SOPH',
+      content: 'STORM SOPH هو متجر مستقل وموثوق متخصص في شراء وبيع حسابات PUBG Mobile. مع سنوات من الخبرة، نسعى جاهدين لتوفير بيئة آمنة وشفافة للمستخدمين. جميع المعاملات تأتي مع إيصالات ورموز تتبع، وفريق الدعم لدينا دائماً في خدمتك.',
     },
     contact: {
       title: 'اتصل بنا',

@@ -9,12 +9,12 @@ export const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Flash Storei" className="h-8 w-8" />
-            <span className="font-bold text-lg">فلش storei</span>
+            <img src={logo} alt="STORM SOPH" className="h-8 w-8" />
+            <span className="font-bold text-lg">STORM SOPH</span>
           </div>
           
           <p className="text-sm text-muted-foreground text-center">
-            © 2024 Flash storei. All rights reserved.
+            © 2024 STORM SOPH. All rights reserved.
           </p>
           
           <div className="flex gap-4 text-sm text-muted-foreground">
